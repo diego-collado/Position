@@ -1,0 +1,159 @@
+/* STATIC */
+
+.estatica {
+    background-color: #9ff;
+    padding: 10px;
+    width: 400px;
+}
+
+.estatica2 {
+    position: static;
+    background-color: #ff9;
+    padding: 10px;
+    width: 300px;
+}
+
+.estatica3 {
+    position: static;
+    background-color: #f9f;
+    padding: 10px;
+    width: 500px;
+}
+
+
+/* ABSOLUTE */
+
+.absoluta {
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    top: 100px;
+    left: 30px;
+    background-color: #ff8800;
+    color: #fff;
+    padding: 15px;
+    z-index: 2;
+}
+
+.absoluta2 {
+    position: absolute;
+    width: 820px;
+    height: 30px;
+    padding: 10px;
+    background-color: #ddf;
+    top: 150px;
+    left: 10px;
+    z-index: 1;
+}
+
+
+/* RELATIVE */
+
+.relativa {
+    background-color: #606;
+    color: #ffc;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.relativa2 {
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    background-color: #066;
+    color: #ffc;
+    top: 100px;
+    left: 30px;
+}
+
+
+/* FIXED */
+
+.fija {
+    position: fixed;
+    width: 300px;
+    height: 140px;
+    top: 100px;
+    left: 30px;
+    background-color: #ff8800;
+    color: #fff;
+    padding: 15px;
+    z-index: 1;
+}
+
+.fija2 {
+    position: fixed;
+    width: 700px;
+    height: 30px;
+    padding: 10px;
+    background-color: #d0f;
+    top: 150px;
+    left: 10px;
+    z-index: 2;
+}
+
+.fija3 {
+    position: fixed;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    background-color: #0df;
+    bottom: 10px;
+    right: 10px;
+    z-index: 4;
+}
+
+
+/* BOX MODEL */
+
+.simple {
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid red;
+}
+
+.fancy {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border-width: 10px;
+    border: 2px solid blue;
+}
+
+.simplebox {
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid blueviolet;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fancybox {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid green 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* FLOAT + CLEAR + OVERFLOW + ZOOM  */
+
+img {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.limpiar {
+    clear: both;
+}
+
+.clearfix {
+    overflow: auto;
+    /*CLEARFIX HACK*/
+    zoom: 5;
+}
